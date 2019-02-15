@@ -6,3 +6,5 @@ services:
       - "3000:3000"
     command: npm start
     image: barrymoo/crc-status-sus
+    env_file:
+      - .env
