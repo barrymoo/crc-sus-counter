@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:11.9.0-alpine
 MAINTAINER Barry Moore "moore0557@gmail.com"
 COPY . /app
 WORKDIR /app
